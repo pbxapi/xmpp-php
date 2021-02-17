@@ -1,6 +1,7 @@
 {
     "name": "pbxapi/xmpp-prebind-php",
     "type": "library",
+    "version": "0.0.1",
     "require": {
         "lib-curl": "^7.29"
     },
