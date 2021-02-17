@@ -1,9 +1,10 @@
 {
-    "name": "pbxapi/xmpp-prebind-php",
+    "name": "pbxapi/xmpp-php",
     "type": "library",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "require": {
-        "lib-curl": "^7"
+        "lib-curl": "^7",
+        "guzzlehttp/guzzle": "^7.0"
     },
     "authors": [
         {
@@ -13,7 +14,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Pbxapi\\": "src/"
+            "Pbxapi\\Xmpp\\": "src/"
         }
     }
 }

@@ -5,11 +5,11 @@
  * Date: 9/22/15
  * Time: 23:53
  */
-namespace Pbxapi;
+namespace Pbxap\Xmpp;
 
 use SimpleXMLElement;
 
-class XmppPrebind
+class Prebind
 {
     protected $sid;
     protected $rid;
