@@ -10,7 +10,7 @@ Clone this repository and require (or use namespace as I did) where you want to 
 
 ```
 <?php
-        use common\extensions\XmppPrebind; //or require class here. Totally up to you.
+        use Pbxapi\XmppPrebind; 
 
         $params = [
             "user" => "john",

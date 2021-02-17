@@ -7,6 +7,8 @@
  */
 namespace Pbxapi;
 
+use SimpleXMLElement;
+
 class XmppPrebind
 {
     protected $sid;
@@ -53,7 +55,7 @@ class XmppPrebind
                     ver='1.6' xmpp:version='1.0' xmlns:xmpp='urn:xmpp:xbosh'/>";
 
         $return = $this->__sendBody($body);
-        $xml = new \SimpleXMLElement($return);
+        $xml = new SimpleXMLElement($return);
 
         $sid = $xml['sid'];
         $rid++;

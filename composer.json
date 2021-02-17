@@ -1,14 +1,20 @@
 {
     "name": "pbxapi/xmpp-prebind-php",
     "type": "library",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "require": {
-        "lib-curl": "^7.29"
+        "lib-curl": "^7.29",
+        "libxml": "*"
     },
     "authors": [
         {
             "name": "Aaron Shames",
             "email": "aaron@1pbx.io"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "Pbxapi\\": "src/"
+        }
+    }
 }
