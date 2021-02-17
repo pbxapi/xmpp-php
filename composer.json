@@ -1,0 +1,13 @@
+{
+    "name": "pbxapi/xmpp-prebind-php",
+    "type": "library",
+    "require": {
+        "lib-curl": "^7.29"
+    },
+    "authors": [
+        {
+            "name": "Aaron Shames",
+            "email": "aaron@1pbx.io"
+        }
+    ]
+}
